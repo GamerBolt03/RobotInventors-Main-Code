@@ -4,8 +4,8 @@ import numpy as np
 #Cap - Capture
 #cv - OpenCV
 
-lower_color = np.array([0, 100, 100])   # Lower bound of HSV for red
-upper_color = np.array([10, 255, 255])  # Upper bound of HSV for red
+lower_color = np.array([0, 100, 100])
+upper_color = np.array([10, 255, 255])
 
 cap = cv.VideoCapture(0)
 
